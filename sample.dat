@@ -1,0 +1,13 @@
+int main (void) {
+   int a = 2, b = 3, max = 0;
+
+   while ( max == 0 ) {
+      a = b;
+      while (a != 33) {
+         a = 6;
+      }
+      max = a;
+   }
+   max = b;
+   return 0;
+}
